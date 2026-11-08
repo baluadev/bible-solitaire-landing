@@ -1,0 +1,26 @@
+{
+  "name": "bible-solitaire-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Marketing site for Bible Solitaire",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "next build && wrangler deploy",
+    "preview": "next build && wrangler dev"
+  },
+  "dependencies": {
+    "next": "^16.4.3",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5",
+    "wrangler": "^4.152.0"
+  }
+}

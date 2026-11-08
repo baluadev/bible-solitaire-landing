@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "bible-solitaire-landing",
+  "compatibility_date": "2026-10-19",
+  // Static site: Next.js `output: "export"` writes the whole site to ./out.
+  // No server code — Workers Static Assets serves the folder directly.
+  "assets": {
+    "directory": "./out",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "observability": { "enabled": true }
+}
